@@ -2,8 +2,7 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+These are the supported versions of chrome and edge we accept. Please check if you have a Update button if you want to use BogForlaget
 
 | Version | Supported          |
 | ------- | ------------------ |
