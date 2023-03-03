@@ -7,15 +7,11 @@ currently being supported with security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Chrome 110.0.5481.177 >   | :white_check_mark: |
+| Chrome < 110.0.5481.177   | :x:                |
+| Edge 110.0.1587.50 >   | :white_check_mark: |
+| Edge < 110.0.1587.50   | :x:                |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+You can report vulnerability to our mail applehelper06@gmail.com or contact +45 24 52 73 59
