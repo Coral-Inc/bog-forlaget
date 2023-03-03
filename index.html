@@ -3,6 +3,31 @@
 <title>BogForlaget | Coral</title>
 <head>
     <div>
+        <style>
+            /* (B) FLASH ANIMATION */
+            @keyframes flash {
+              /* (B1) FROM RED */
+              from {
+                text-shadow:
+                0 0 5px #fc0303, 0 0 10px #fc0303,
+                0 0 10px #fc0303, 0 0 40px #fc0303;
+              }
+              /* (B2) TO BLUE */
+              to {
+                text-shadow:
+                0 0 5px #03cafc, 0 0 10px #03cafc,
+                0 0 15px #03cafc, 0 0 40px #03cafc;
+              }
+            }
+            
+            /* (C) ATTACH ANIMATION */
+            /* ANIMATION: KEYFRAMES DURATION FUNCTION REPEAT DIRECTION */
+            .fglow { animation: flash 1.5s ease infinite alternate; }
+            </style>
+            
+        <h4 class="fglow tilted" style="color: darkred; font-weight: bolder; font-size: 15;">⚠️If you don't use Chrome Version 110.0.5481.177/Edge Version 110.0.1587.50 or later, many functions wont work!⚠️</h4>
+    </div>
+    <div>
         <h1>BogForlaget</h1>
     </div>
 </head>
@@ -36,6 +61,19 @@
         padding: 10px;
         margin: 10px;
     }
+    .tilted {
+        font-style: italic;
+    }
+    .slideybutton {
+      background-size: 200% 100%;
+      background-image: linear-gradient(to right, white 50%, blue 50%);
+      transition: background-position 1s linear, color 1s linear;
+      color: blue;
+    }
+    .slideybutton:hover {
+      background-position: -100% 0;
+      color: white;
+    }
 </style>
 <div class="bookBox" style="float: left;">
 <h3 class="bookTitle">Coral Info</h3>
@@ -44,13 +82,13 @@
 </h5>
 <h6 class="bookTitle">Forfatter: Sebastian Eysturtun</h6>
 <br>
-<a class="button button1" onclick="window.location.href='https://drive.google.com/file/d/1JqGmP3Sz6E-dE8AFpdHFUj3zZr2rsbGZ/view?usp=sharing';">Download Bog Nu</a>
+<a class="button button1 slideybutton" onclick="window.location.href='https://drive.google.com/file/d/1JqGmP3Sz6E-dE8AFpdHFUj3zZr2rsbGZ/view?usp=sharing';">Download Bog Nu</a>
 </div>
 <div class="bookBox" style="float: left;">
     <h3 class="bookTitle">Johanne Billies</h3>
     <h5 class="bookTitle">Johanne Billies den kendte stjerne. Hvad skete der med hende?</h5>
     <h6 class="bookTitle">Forfatter: Cornelius Afrolo</h6>
     <br>
-    <a class="button button1">Køb Bog Nu</a>
+    <a class="button button1 slideybutton">Køb Bog Nu</a>
     </div>
 </html>
