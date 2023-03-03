@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-These are the supported versions of chrome and edge we accept. Please check if you have a Update button if you want to use BogForlaget
+These are the supported versions of chrome and edge we accept. Please check if you have a Update button if you want to use BogForlaget. Were getting high tech so please just check twice your version!
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -13,4 +13,4 @@ These are the supported versions of chrome and edge we accept. Please check if y
 
 ## Reporting a Vulnerability
 
-You can report vulnerability to our mail applehelper06@gmail.com or contact +45 24 52 73 59
+You can report vulnerability to our mail applehelper06@gmail.com or contact +45 24 52 73 59. Feel more than free to express yourself and your feelings. We are always here to help when its needed.
